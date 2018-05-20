@@ -4,7 +4,8 @@ if array.size == 1
 elsif array.size == 2
   array.join(" and ")
 else
-  array.join(", and ")
-  
-  
+  array.join(", ")
+  array.insert((array.size-1) "and" )
+
+
 end
