@@ -4,6 +4,6 @@ if array.size == 1
 elsif array.size == 2
   array.join(" and ")
 else
-"#{array[0, array.legnth-1].join(", ")} and #{array.last}."
+"#{array[0, array.legnth-1].join(", ")} and #{array.last
 end
 end
